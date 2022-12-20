@@ -16,3 +16,6 @@ const registerBtn = document.querySelector(".register")
         form.style.display="block"
 
     })
+    loginBtn.addEventListener('click',()=>{
+        form.style.display ="none"
+    })
