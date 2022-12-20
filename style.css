@@ -61,3 +61,27 @@ body{
     font-style: italic;
     font-weight: bolder;
 }
+a{
+    text-decoration: none;
+    color: #000000; }
+
+
+.primary{
+    color: #ff5714;
+}
+
+.btn{
+    font-family: inherit;
+    cursor: pointer;
+    outline: 0;
+    font-size: 1.05rem;
+}
+.text{
+    opacity: 0.8;
+}
+.title{
+    font-size: 2rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+    color:#f0f0f0;
+}
