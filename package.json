@@ -1,0 +1,22 @@
+{
+  "name": "mamas-dream-kitchen",
+  "version": "1.0.0",
+  "description": "a recipe app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nthokiesther09/Mamas-Dream-Kitchen.git"
+  },
+  "keywords": [
+    "Recipe"
+  ],
+  "author": "Esther Musyoka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nthokiesther09/Mamas-Dream-Kitchen/issues"
+  },
+  "homepage": "https://github.com/nthokiesther09/Mamas-Dream-Kitchen#readme"
+}

@@ -114,6 +114,14 @@ function mealRecipeModal(meal){
     mealDetailsContent.innerHTML = html;
     mealDetailsContent.parentElement.classList.add('showRecipe');
 }
+// feedback
+document.getElementById('rating-form').addEventListener('submit', evt=>{
+    evt.preventDefault();
+    const form = evt.target;
+    document.getElementById('rating-list').innerHTML += `<li>${form.rating.value}</li>`;
+    form.reset();
+})
+
 
     
     
