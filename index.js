@@ -8,3 +8,11 @@ mealList.addEventListener('click', getMealRecipe);
 recipeCloseBtn.addEventListener('click', () => {
     mealDetailsContent.parentElement.classList.remove('showRecipe');
 });
+//login
+const registerBtn = document.querySelector(".register")
+    const form = document.querySelector("#regForm")
+    const loginBtn = document.querySelector("#login")
+    registerBtn.addEventListener('click',()=>{
+        form.style.display="block"
+
+    })
