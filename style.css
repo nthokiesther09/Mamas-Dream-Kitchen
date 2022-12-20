@@ -85,3 +85,57 @@ a{
     margin-bottom: 1rem;
     color:#f0f0f0;
 }
+h3{
+    color: #f0f0f0;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+/*  */
+.container{
+    min-height: 100vh;
+}
+.wrap{
+    position: absolute;
+    justify-content:center;
+    display: flex;
+    top: 0%;
+    right:0%;
+  }
+ 
+.wrap .register:hover,
+.wrap .register:hover .tool,
+.wrap .register:hover .tool::before {
+  background: #ff5714;
+  color: #ffffff;
+}
+.tool{
+    font-size: 20px;
+    text-decoration-color: #f0f0f0;
+    padding-top: 20px;
+    
+}
+
+form{
+    height: 250px;
+    width: 200px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 30%;
+    left: 90%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 35px 20px;
+    display: none;
+}
+.meal-wrapper{
+    max-width: 100%;
+    margin: auto;
+    padding: 2rem;
+    background-color:#003249;
+    text-align: center;
+    align-items: center;
+}
